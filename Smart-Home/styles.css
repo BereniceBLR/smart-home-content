@@ -7,30 +7,48 @@ body {
         margin-left: 20px;
         margin-right: 20px;
       }
-     
-      .navbar ul{
-        list-style-type: none;
+
+      nav {
+        height: 113px;
         background-color: #262120;
-        padding: 20px;
-        margin: 0px;
-        overflow: hidden;
-      }
-      .navbar a{
-        color: white;
-        text-decoration: none;
-        padding: 15px;
         display: flex;
-        text-align: center;
       }
+     
+      .navlogo {
+        width: 108px;
+        height: 108px;
+      }
+
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .navbar a{
+        display: flex;
+        font-size: xx-large;
+        color: #D9D1CC;
+        text-decoration: none;
+        padding: 0px;
+        background-color: #59514C;
+      }
+      
+      
       .navbar a:hover {
         background-color: #1a1616;
       }
-      .navbar li{
-        float: left;
+      .navtabs {
+        display: flex;
+        width: 262px; 
+        height: 57px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        
       }
 
-        .text {
-
+      .text {
         display: flex;
         width: 580px;
         height: 282px;
