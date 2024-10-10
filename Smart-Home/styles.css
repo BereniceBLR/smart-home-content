@@ -63,91 +63,51 @@ body {
         line-height: normal;
     }
 
-   * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-   }
-
-   .slideshow-container {
-    position: relative;
-    max-width: 100%;
-    height: 100vh;
-    margin: auto;
-    overflow: hidden;
-   }
-   .slides {
-    display: flex;
-    width: 300%;
-    height: 100%;
-    transition: transform 0.8s ease-in-out;
-   }
-   .slide {
-    width: 100%;
-    flex: 1 0 100%
-   }
-
-   .slide img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-   }
-   input[type="radio"] {
-    display: none;
-   }
-   #slide1:checked ~ .slides {
-    transform: translateX(0);
-   }
-   #slide2:checked ~ .slides {
-    transform: translateX(-100);
-   }
-   #slide3:checked ~ .slides {
-    transform: translateX(-200);
-   }
-   #slide4:checked ~ .slides {
-    transform: translateX(-300);
-   }
-   #slide5:checked ~ .slides {
-    transform: translateX(-400);
-   }
-   #slide6:checked ~ .slides {
-    transform: translateX(-500);
-   }
-   #slide7:checked ~ .slides {
-    transform: translateX(-600);
-   }
-   #slide8:checked ~ .slides {
-    transform: translateX(-700);
-   }
-   #slide9:checked ~ .slides {
-    transform: translateX(-800);
-   }
-   #slide10:checked ~ .slides {
-    transform: translateX(-900);
-   }
-   #slide11:checked ~ .slides {
-    transform: translateX(-1000);
-   }
-   .navigation {
-    position:absolute;
-    bottom: 20px;
-    left: 50%
-  }
-  .nav-dot {
-    width: 15px;
-    height: 15px;
-    margin: 0 5px;
-    border-radius: 50%;
-    background-color: #bbb;
-    cursor: pointer;
-    transition: background-color 0.6s ease;
-  }
-  input[type="radio"]:checked + .nav-dot {
-    background-color: #717171;
-  }
-  .nav-dot:hover {
-    background-color: #717171;
-  }
+    .container{
+      width: 85vmin;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 50%;
+      overflow: hidden;
+      border: 5px solid #000;
+      border-radius: 8px;
+    }
+    .wrapper{
+      display: flex;
+      animation: slide 16s infinite;
+      width: 100%
+    }
+    @keyframes slide{
+      0%{
+        transform: translateX(0);
+      }
+      25%{
+        transform: translateX(0);
+      }
+      30%{
+        transform: translateX(-100%);
+      }
+      50%{
+        transform: translateX(-100%);
+      }
+      55%{
+        transform: translateX(-200%);
+      }
+      75%{
+        transform: translateX(-200%);
+      }
+      80%{
+        transform: translateX(-300);
+      }
+      100%{
+        transform: translateX(-300);
+      }
+    }
+    img{
+      width: 100%;
+    }
+   
 
         .footer {
             background-color: #262120;
