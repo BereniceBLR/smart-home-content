@@ -59,6 +59,33 @@ body {
         border-radius: 5px;
         transform: translate(-3rem);
       }
+      
+      .card-container{
+        max-width: 5%;
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 25px;
+        justify-content: center;
+      }
+
+      .card{
+        flex: 1;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        box-shadow: 0 0 10px;
+      }
+
+      .card img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      .card-content{
+      padding: 20px;
+      }
 
 
       .text {
@@ -76,6 +103,21 @@ body {
         line-height: normal;
     }
 
+    .text2 {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      color: #000;
+      font-family: "Jomolhari";
+      font-size: 18.5px;
+      padding: 1rem;
+      width: 361px;
+      height: auto;
+      background-color: #D9D1CC;
+      justify-content: center; 
+      border-radius: 10px;
+    }
+
     .text3 {
       display: flex;
       flex-direction: row;
@@ -84,9 +126,12 @@ body {
       font-family: "Jomolhari";
       font-size: 40px;
       padding: 3rem;
+      width: 120vmin;
+      height: auto;
       background-color: #D9D9D9;
       border: 1px solid black;
-      border-radius: 5px;
+      border-radius: 10px;
+      margin: 50px auto;
     }
 
     .container {
@@ -95,12 +140,12 @@ body {
       margin: 0 auto;
       overflow: hidden;
       border: 5px solid #000;
-      border-radius: 8px;
+      border-radius: 10px;
     }
 
-.wrapcon {
+  .wrapcon {
   padding: 3rem;
-}
+  }
 
     .wrapper{
       display: flex;
