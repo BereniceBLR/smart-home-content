@@ -1,12 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #000000;
 }
-      main {
-        margin-left: 0px;
-        margin-right: 20px;
+      .main {
+        background-color: #BFB2AA;
+        margin-left: 100px;
+        margin-right: 100px;
       }
+
+    
+            
 
       #pagewrapper {
         max-width: 1440px;
@@ -172,10 +176,10 @@ body {
         transform: translateX(-200%);
       }
       80%{
-        transform: translateX(-300);
+        transform: translateX(-300%);
       }
       100%{
-        transform: translateX(-300);
+        transform: translateX(-300%);
       }
     }
     .img {
@@ -188,7 +192,7 @@ body {
             display: flex;
             align-items: center;
             flex-direction: row;
-            padding: 10x;
+            padding: 10px;
             color: #D9D1CC;
             font-family: "Jomolhari";
             font-size: 32px;
