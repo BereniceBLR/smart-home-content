@@ -8,7 +8,6 @@ body {
         margin-left: 100px;
         margin-right: 100px;
       }
-     
       h1 {
         font-size: 54px;
         font-weight: lighter;
@@ -16,43 +15,26 @@ body {
         justify-content: center;
         margin-bottom: 1px;
       }
-
-
-
-
       #pagewrapper {
         max-width: 1440px;
         margin: 0 auto;
         background-color: #BFB2AA;
       }
-
-
-
-
       nav {
         height: 113px;
         background-color: #262120;
         display: flex;
       }
-     
       .navlogo {
         width: 108px;
         height: 108px;
         transform: translate(-2rem);
       }
-
-
-
-
       .navbar {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
       }
-
-
-
-
       .navbar a{
         display: flex;
         font-size: xx-large;
@@ -64,8 +46,6 @@ body {
         justify-content: center;
         flex-shrink: 0;
       }
-     
-     
       .navbar a:hover {
         background-color: #1a1616;
       }
@@ -80,10 +60,10 @@ body {
         border-radius: 5px;
         transform: translate(-3rem);
       }
-
-
-
-
+      .fimg {
+        display: flex;
+        transform: translate(-6.25rem);
+      }
       .card-container-home {
         display: flex;
         flex-direction: row;
@@ -91,10 +71,6 @@ body {
         gap: 40px;
         padding: 2rem;
       }
-
-
-
-
       .card-container-home1 {
         padding-top: 1rem;
         padding-bottom: 3rem;
@@ -103,7 +79,6 @@ body {
         justify-content: center;
         flex-direction: row;
       }
-     
       .card-container {
         max-width: 5%;
         margin: 50px auto;
@@ -113,39 +88,19 @@ body {
         gap: 25px;
         justify-content: center;
       }
-
-
-
-
       .card{
         background-color: #D9D9D9;
         border-radius: 10px;
         box-shadow: 0 0 10px;
       }
-
-
-
-
       .card img{
         width: 100%;
         height: auto;
         border-radius: 10px;
       }
-
-
-
-
       .card-content{
       padding: 20px;
       }
-
-
-
-
-
-
-
-
       .text {
         display: flex;
         width: 580px;
@@ -160,10 +115,6 @@ body {
         font-weight: 400;
         line-height: normal;
     }
-
-
-
-
     .text2 {
       display: flex;
       flex-direction: row;
@@ -178,10 +129,6 @@ body {
       justify-content: center;
       border-radius: 10px;
     }
-
-
-
-
     .text3 {
       display: flex;
       flex-direction: row;
@@ -197,10 +144,6 @@ body {
       border-radius: 10px;
       margin: 50px auto;
     }
-
-
-
-
     .container {
       width: 120vmin;
       display: flex;
@@ -209,15 +152,9 @@ body {
       border: 5px solid #000;
       border-radius: 10px;
     }
-
-
-
-
-  .wrapcon {
-  padding: 3rem;
-  }
-
-
+    .wrapcon {
+    padding: 3rem;
+    }
   .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -225,10 +162,6 @@ body {
     max-width: 1300px;
     padding: 20px;
   }
-
-
-
-
     .wrapper{
       display: flex;
       animation: slide 16s infinite;
@@ -260,15 +193,9 @@ body {
         transform: translateX(-300%);
       }
     }
-   
     .img {
       width: 100%;
     }
-   
-
-
-
-
         .footer {
             background-color: #262120;
             display: flex;
@@ -281,18 +208,10 @@ body {
             font-style: normal;
             font-weight: lighter;
         }
-
-
-
-
         .footerlogo {
           width: 150px;
           height: 150px;
         }
-
-
-
-
         .footer p {
           display: flex;
           transform: translate(2rem);
